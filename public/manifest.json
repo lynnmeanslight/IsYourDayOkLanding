@@ -1,0 +1,45 @@
+{
+  "name": "IsYourDayOk - Mental Health On-Chain",
+  "short_name": "IsYourDayOk",
+  "description": "Track your mental health journey on Base blockchain. Log moods, journal daily, meditate, and earn NFT achievements.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/IsYourDayOkfinal.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/IsYourDayOkfinal.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "health",
+    "lifestyle",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Track Mood",
+      "short_name": "Mood",
+      "description": "Log your daily mood",
+      "url": "/#mood",
+      "icons": [{ "src": "/emojis/happy.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Journal",
+      "short_name": "Journal",
+      "description": "Write in your journal",
+      "url": "/#journal",
+      "icons": [{ "src": "/icons/journal.png", "sizes": "96x96" }]
+    }
+  ]
+}
